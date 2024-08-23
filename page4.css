@@ -1,0 +1,216 @@
+.image-132-icon1 {
+  height: 144px;
+  width: 252px;
+  position: relative;
+  object-fit: cover;
+}
+.page-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.image-132-parent,
+.page-1-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.page-1-wrapper {
+  height: 364px;
+  width: 234.8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 118px 0 0;
+}
+.image-132-parent {
+  width: 857.8px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.enter-the-otp {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.digit-box {
+  border: 1px solid var(--color-darkmagenta);
+  background-color: var(--background);
+  height: 114.2px;
+  width: 208px;
+  outline: 0;
+  position: relative;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+}
+.digit-boxes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.failed-retry,
+.signin {
+  position: relative;
+}
+.signin {
+  height: 69px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.signin-wrapper {
+  width: 382px;
+  border-radius: var(--br-8xs);
+  background-color: #d7bbe3;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px var(--padding-xl);
+  box-sizing: border-box;
+}
+.error-container,
+.error-container-inner,
+.signin-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.error-container-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  color: var(--color-black);
+}
+.error-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.error-row {
+  width: 792px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 29px;
+  box-sizing: border-box;
+}
+.error-row,
+.input-container,
+.input-row {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.input-row {
+  width: 1144px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44.8px;
+}
+.input-container {
+  width: 1382px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: red;
+  font-family: var(--font-inter);
+}
+.enter-the-otp-which-we-sent-to-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 142px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-oxygen-mono);
+}
+.enter-the-otp-which-we-sent-to-parent,
+.page-4-otp-failed,
+.page32 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-4-otp-failed {
+  flex: 1;
+  background-color: var(--background);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-44xl);
+  box-sizing: border-box;
+  gap: 65px;
+  max-width: 100%;
+}
+.page32 {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .enter-the-otp {
+    font-size: var(--font-size-21xl);
+  }
+  .digit-boxes {
+    flex-wrap: wrap;
+  }
+  .error-container {
+    gap: 28px;
+  }
+  .enter-the-otp-which-we-sent-to-parent {
+    gap: 71px;
+  }
+  .page-4-otp-failed {
+    gap: 32px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .image-132-parent {
+    flex-wrap: wrap;
+  }
+  .input-row {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .page-1-wrapper {
+    padding-top: 77px;
+    box-sizing: border-box;
+  }
+  .enter-the-otp {
+    font-size: 30px;
+  }
+  .failed-retry,
+  .signin {
+    font-size: var(--font-size-xl);
+  }
+  .enter-the-otp-which-we-sent-to-parent {
+    gap: 35px;
+  }
+  .page-4-otp-failed {
+    gap: var(--gap-base);
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+}
